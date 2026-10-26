@@ -1,0 +1,3 @@
+export function Claw({className=''}:{className?:string}) {return <svg className={className} viewBox="0 0 180 240" fill="currentColor" aria-hidden="true"><path d="M10 10H32L62 230ZM62 10H84L111 184ZM114 10H136L160 136Z"/></svg>}
+export function Cat(){return <svg viewBox="0 0 200 220" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M18 15L78 50 100 44 122 50 182 15 176 89 190 140 144 196 100 210 56 196 10 140 24 89ZM91 65 100 88 109 65 100 57ZM42 108 82 116 72 132 35 124ZM118 116 158 108 165 124 128 132ZM48 135 60 179 71 183 61 138ZM139 138 129 183 140 179 152 135ZM84 153 100 173 116 153Z"/></svg>}
+export function Brand(){return <a className="brand" href="/" aria-label="Bite Studio — comparar versões"><Claw/><span>BITE<span>STUDIO®</span></span></a>}
